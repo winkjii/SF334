@@ -1,2 +1,1 @@
-Nattida Yiamsanoi 6410742206
-็Hello cn334
+Nattida Yiamsanoi 6410742206 
