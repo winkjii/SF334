@@ -20,7 +20,12 @@ from django.urls import path, include
 from ecommerce import views as ecom_views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path("admin/", admin.site.urls),
     path("ecommerce/", ecom_views.ecommerce_index_view),
-    path("ecommerce/item/<item_id>", ecom_views.item_view)
+    path("ecommerce/item/<item_id>", ecom_views.item_view),
+    path("ecommerce/homepage", ecom_views.item_view1),
+    path("ecommerce/category", ecom_views.item_view2),
+    path("ecommerce/product", ecom_views.item_view3),
+    path("ecommerce/checkout", ecom_views.item_view4),
+    path("ecommerce/contact", ecom_views.item_view5)
 ]
